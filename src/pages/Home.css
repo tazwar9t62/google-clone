@@ -1,0 +1,29 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.home_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  align-items: center;
+}
+.home_header a {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.85);
+  text-decoration: inherit;
+  margin-right: 2em;
+}
+.home_header a:hover {
+  text-decoration: underline;
+}
+.header_right {
+  display: flex;
+  min-width: 13vw;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_right > .MuiSvgIcon-root {
+  margin-right: 0.5em;
+}
