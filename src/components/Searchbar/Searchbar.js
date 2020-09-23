@@ -27,6 +27,7 @@ const Searchbar = ({ hiddenButtons = false }) => {
         <SearchIcon className="searchIcon" />
         <input
           value={input}
+          enableAutoComplete="true"
           onChange={(e) => setInput(e.target.value)}
           type="text"
         />
