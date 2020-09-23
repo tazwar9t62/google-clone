@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import NoMatch from "./pages/NoMatch";
+import SearchResult from "./pages/SearchResult/SearchResult";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/search">
-            <h1>Your search result </h1>
+            <SearchResult />
           </Route>
           <Route path="/home">
             <Home />
