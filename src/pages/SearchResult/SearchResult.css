@@ -19,20 +19,21 @@
   margin: unset;
   max-width: unset;
 }
-.searchPage_option {
+.searchPage_options {
   display: flex;
   align-items: center;
   color: grey;
-}
-.searchPage_option a,
-.searchPage_option_right a {
-  text-decoration: none;
-  color: gray;
 }
 .searchPage_option_left,
 .searchPage_option_right {
   display: flex;
 }
+.searchPage_options a,
+.searchPage_option_right a {
+  text-decoration: none;
+  color: gray;
+}
+
 .searchPage_option_right {
   margin-left: 80px;
 }
@@ -41,7 +42,7 @@
   align-items: center;
   margin-right: 20px;
 }
-.searchPage_single_option {
+.searchPage_single_option a {
   margin-left: 5px;
 }
 .searchPage_Result {

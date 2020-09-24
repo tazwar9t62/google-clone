@@ -30,7 +30,7 @@ const SearchResult = () => {
           <Searchbar hiddenButtons />
         </div>
 
-        <div className="searchPage_option">
+        <div className="searchPage_options">
           <div className="searchPage_option_left">
             <div className="searchPage_single_option">
               <SearchIcon />
