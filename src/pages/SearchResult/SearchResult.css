@@ -44,3 +44,34 @@
 .searchPage_single_option {
   margin-left: 5px;
 }
+.searchPage_Result {
+  margin: 40px 0;
+}
+.searchPage_Results_Counts {
+  color: grey;
+  font-size: 14px;
+}
+.searchPage_Results {
+  max-width: 650px;
+  margin-top: 20px;
+  margin-left: 240px;
+  margin-bottom: 100px;
+}
+.searchPage_Results_Title {
+  text-decoration: none;
+}
+.searchPage_Results_Title:hover {
+  text-decoration: underline;
+}
+.searchPage_Results_Title > h2 {
+  font-weight: 500;
+}
+.searchPage_Results_Snippet {
+  margin-top: 10px;
+}
+.searchPage_Result_Image {
+  object-fit: contain;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}

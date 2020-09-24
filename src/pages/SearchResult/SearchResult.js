@@ -10,6 +10,7 @@ import LocalOfferIcon from "@material-ui/icons/LocalOffer";
 import RoomIcon from "@material-ui/icons/Room";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import "./SearchResult.css";
+// import demo from "../../responseDemo";
 
 const SearchResult = () => {
   const [{ term }, dispatch] = useStateValue();
@@ -28,7 +29,7 @@ const SearchResult = () => {
         <div className="searchPage_header_body">
           <Searchbar hiddenButtons />
         </div>
-        
+
         <div className="searchPage_option">
           <div className="searchPage_option_left">
             <div className="searchPage_single_option">
@@ -66,9 +67,37 @@ const SearchResult = () => {
           </div>
         </div>
       </div>
-      <div className="searchPage_Result">
-        <h1>hlw {term} </h1>
-      </div>
+      {term && (
+        <div className="searchPage_Results">
+          <p className="searchPage_Results_Counts">
+            about {data?.searchInformation.formattedTotalResults} results{" "}
+            {data?.searchInformation.formattedSearchTime} seconds for tesla
+          </p>
+          {data?.items.map((item) => (
+            <div className="searchPage_Result">
+              <a href={item.link}>
+                {item.pagemap?.cse_image?.length > 0 &&
+                  item.pagemap?.cse_image[0]?.src && (
+                    <img
+                      className="searchPage_Result_Image"
+                      src={
+                        item.pagemap?.cse_image?.length > 0 &&
+                        item.pagemap?.cse_image[0]?.src
+                      }
+                      alt=""
+                    />
+                  )}
+                {item.displayLink}
+                <span>🔽</span>
+              </a>
+              <a className="searchPage_Results_Title" href={item.link}>
+                <h2>{item.title}</h2>
+              </a>
+              <p className="searchPage_Results_Snippet">{item.snippet}</p>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 };
