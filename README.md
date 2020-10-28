@@ -8,16 +8,17 @@
 
 > web application for a service providing startup company.
 
-### 🏠( super light and fancy. user can login and order services , they can also write review check up their ordered services while admin can manage services and monitor all the orders)
+### 🏠(Clon of the biggest search engine 🤸‍ )
 
-### ✨ [Demo](https://creative-agency-e5670.web.app/)
+
 
 ### 💻Technologies used:
 
 📌 React JS <br/>
 📌 Epress JS <br/>
 📌 Redux <br/>
-📌 Material UI
+📌 Material UI <br/>
+📌 Custom Search JSON API
 
 ## Install
 
