@@ -1,8 +1,8 @@
 <h1 align="center">GOOGLE CLONE! 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://twitter.com/tazwar\_96" target="_blank">
-    <img alt="Twitter: tazwar_96" src="https://img.shields.io/twitter/follow/tazwar\_96.svg?style=social" />
+  <a href="https://twitter.com/tazwar_96" target="_blank">
+    <img alt="Twitter: tazwar_96" src="https://img.shields.io/twitter/follow/tazwar_96.svg?style=social" />
   </a>
 </p>
 
