@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Creative Agency 👋</h1>
+<h1 align="center">GOOGLE CLONE! 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/tazwar\_96" target="_blank">
@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> web application for a service providing startup company.
+> It looks like a twin of google 😉
 
 ### 🏠(Clon of the biggest search engine 🤸‍ )
 
